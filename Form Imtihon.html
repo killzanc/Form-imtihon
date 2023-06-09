@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 13px;
+        }
+    </style>
+</head>
+    <h1>Registration Form</h1>
+
+    <p>Please fill out this form with required info.</p>
+
+    <form>
+        <fieldset>
+            <label>Enter Your First Name:</label>
+            <input type="text">
+
+
+            <label>Enter Your Last Name:</label>
+            <input type="text">
+
+
+            <label>Enter Your Email:</label>
+            <input type="email">
+
+
+            <label>Create a new Password:</label>
+            <input type="password">
+
+        </fieldset>
+
+        <fieldset>
+
+            <input name="account-type" type="radio" id="personal">
+            <label for="personal">Personal Account</label>
+
+            <input name="account-type" type="radio" id="business">
+            <label for="business">Business Account</label>
+
+            <input type="checkbox">
+            <label>I accept the <a href="#">terms and conditions</a></label>
+        </fieldset>
+
+        <fieldset>
+            <label>Upload a profile picture:</label>
+            <input type="file" style="margin-right: 10px;">
+
+
+            <label>Input Your Age(years):</label>
+            <input type="number">
+
+            <label for="How">How did you hear about us?</label>
+            <select name="How" id="How" >
+                <option disabled>(Select one)</option>
+                <option value="Search Engine">Search Engine</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Friends">Friends</option>
+            </select>
+
+            <label>Provide a BIO</label>
+            <textarea style="width: 294px;
+            height: 58px;"  cols="30" rows="30" placeholder="I like coding on the beach...."></textarea>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+    </body>
+
+</html>
